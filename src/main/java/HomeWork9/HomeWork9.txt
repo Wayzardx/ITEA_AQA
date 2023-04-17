@@ -1,0 +1,19 @@
+WebElement CodeButton = diver.findElement(By.id("code-tab"))
+WebElement ChangeBranchButton = diver.findElement(By.class("css-truncate-target"))
+WebElement BranchesButton = diver.findElement(By.class("ml-3 Link--primary no-underline"))
+WebElement TagsButton = diver.findElement(By.class("color-fg-muted"))
+WebElement GoToFileBtn = diver.findElement(By.class("btn ml-2 d-none d-md-block"))
+WebElement AddFileBtn = diver.findElement(By.class("d-none d-md-flex flex-items-center"))
+WebElement ProjectSrcLink = diver.findElement(By.class("js-navigation-open Link--primary"))
+WebElement CommmitsLink = diver.findElement(By.class("color-fg-muted d-none d-lg-inline"))
+WebElement HistoryLink = diver.findElement(By.class("d-none d-sm-inline"))
+WebElement BranchChanger = diver.findElement(By.class("flex-1 css-truncate css-truncate-overflow "))
+
+
+
+WebElement GiveFedBackBtn = diver.findElement(By.xpath("//summary[@class = 'btn-invisible btn']"))
+WebElement DeleteDiectoryBtn = diver.findElement(By.xpath("//button[@class = 'dropdown-item menu-item-danger btn-link']"))
+WebElement GoToFileBtn = diver.findElement(By.xpath("//a[@class = 'btn mr-2 d-none d-md-block']"))
+WebElement GoToAuthorCommits = diver.findElement(By.xpath("//a[@class = 'commit-author user-mention']"))
+WebElement EditThisFileBtnInProjectFiles = diver.findElement(By.xpath("//button[@class = 'btn-sm BtnGroup-item btn']"))
+
